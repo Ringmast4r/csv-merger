@@ -1,0 +1,186 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                              ║
+║              HOW TO USE CSV MERGER (VISUAL GUIDE)                           ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+✅ EASIEST WAY:
+═══════════════
+
+Step 1: Double-click CSV Merger.bat
+
+Step 2: You'll see this window:
+
+   ┌─────────────────────────────────────────────────┐
+   │ CSV MERGER                                      │
+   │─────────────────────────────────────────────────│
+   │ Drag a folder into this window and press Enter  │
+   │ (or type the path manually)                     │
+   │                                                  │
+   │ Type 'exit' to quit                             │
+   │                                                  │
+   │ Folder path: _                                  │
+   └─────────────────────────────────────────────────┘
+
+Step 3: Open another File Explorer window with your CSV files
+
+Step 4: Right-click the folder → Copy as path
+
+Step 5: Paste into the CMD window and press Enter
+
+Step 6: Choose option 2 (MERGE) and press Enter
+
+Step 7: Watch it merge!
+
+Step 8: Output folder opens automatically when done!
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+📋 WHAT HAPPENS WHEN YOU RUN IT:
+════════════════════════════════
+
+1. CSV Merger.bat launches
+2. Asks you for a folder path
+3. Scans folder for .csv files
+4. Shows you how many CSVs it found
+5. Asks: "Keep separate or MERGE?"
+6. You choose option 2 (MERGE)
+7. Creates a timestamped folder in merge_vault/
+8. Merges all CSVs into MERGED_ALL.csv
+9. Opens the output folder automatically
+10. Asks if you want to merge another folder
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+🎯 REAL WORLD EXAMPLE:
+═══════════════════════
+
+Let's say you have this folder structure:
+
+   C:\Data\
+   ├── january.csv
+   ├── february.csv
+   ├── march.csv
+   ├── april.csv
+   └── may.csv
+
+Here's what you do:
+
+1. Double-click CSV Merger.bat
+2. Type or paste: C:\Data
+3. Press Enter
+4. You see:
+
+   Found 5 CSV file(s) ready to merge
+
+   What do you want to do?
+   1. Keep files separate (5 individual CSVs)
+   2. MERGE all into ONE mega CSV [RECOMMENDED]
+   3. Cancel
+
+5. Type: 2
+6. Press Enter
+7. Done! You get:
+
+   merge_vault\20241107_1430\MERGED_ALL.csv
+
+   This file contains ALL data from all 5 CSVs!
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+💡 PRO TIPS:
+═════════════
+
+✓ The batch file will keep running after merge completes
+  You can choose to:
+  1. Merge the same folder again (different option)
+  2. Merge a DIFFERENT folder
+  3. Exit
+
+✓ All outputs are saved in timestamped folders
+  Example: merge_vault/20241107_1430/
+  You'll NEVER overwrite previous merges!
+
+✓ The tool automatically:
+  → Detects CSV headers
+  → Keeps only ONE header (from first file)
+  → Skips duplicate headers from other files
+  → Combines all data rows
+
+✓ Works with ANY CSV format:
+  → WiGLE exports
+  → Kismet exports
+  → Excel exports
+  → Database exports
+  → Any .csv file!
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+🔧 ALTERNATIVE METHOD (Command Line):
+══════════════════════════════════════
+
+If you prefer command line:
+
+1. Open CMD
+2. Navigate to CSV-Merger folder:
+   cd C:\Users\Squir\Desktop\CSV-Merger
+
+3. Run the Python script directly:
+   python csv_merger.py -d "C:\Data" -o output.csv -v
+
+   Flags explained:
+   -d = directory to scan for CSVs
+   -o = output file name
+   -v = verbose (show progress)
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+❓ TROUBLESHOOTING:
+═══════════════════
+
+Problem: "Python not found"
+Solution: Install Python from python.org
+          Make sure to check "Add Python to PATH"
+
+Problem: "No CSV files found"
+Solution: Check that your folder contains .csv files
+          Check file extensions (they must be .csv)
+
+Problem: "Path not found"
+Solution: Make sure you're typing the full path
+          Example: C:\Users\YourName\Documents\Data
+          Or right-click folder → Copy as path
+
+Problem: "Merge failed"
+Solution: Check that CSV files aren't corrupted
+          Make sure they have headers
+          Try merging files one by one to find the bad one
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+🎉 YOU'RE READY!
+
+   1. Double-click CSV Merger.bat
+   2. Paste your folder path
+   3. Choose option 2
+   4. Done!
+
+   It's that simple.
+
+   Made with ❤️ by ringmast4r
+
+
+╚══════════════════════════════════════════════════════════════════════════════╝

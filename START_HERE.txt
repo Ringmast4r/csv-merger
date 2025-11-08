@@ -1,0 +1,133 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                              ║
+║                   CSV MERGER - QUICK START GUIDE                            ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+🎯 ONE FILE TO RULE THEM ALL:
+
+   ┌──────────────────┐
+   │ CSV Merger.bat   │  ← DRAG ANYTHING ONTO THIS!
+   └──────────────────┘
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📂 WHAT YOU CAN DRAG:
+
+   ✓ Folder with multiple CSV files
+   ✓ Folder with subfolders containing CSVs
+   ✓ Any directory with .csv files
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🚀 HOW TO USE:
+
+   METHOD 1 - DRAG & DROP (EASIEST):
+   ──────────────────────────────────
+   1. Find your folder with CSV files
+   2. Double-click CSV Merger.bat
+   3. Type or paste the folder path
+   4. Choose your option (separate or merge)
+   5. Done! Merged CSV appears automatically
+
+
+   METHOD 2 - COMMAND LINE:
+   ─────────────────────────
+   1. Open CMD in CSV-Merger folder
+   2. Type: CSV Merger.bat
+   3. Drag folder into window or paste path
+   4. Choose merge option
+   5. Done!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+💡 OPTIONS EXPLAINED:
+
+   SEPARATE:  Keep each CSV file separate (just copies them)
+              Input: 10 CSVs → Output: 10 CSVs
+
+   MERGE:     All CSVs combined into ONE master CSV [RECOMMENDED]
+              Input: 10 CSVs → Output: 1 mega CSV with all data
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✨ FEATURES:
+
+   ✓ No size limits (handles huge files)
+   ✓ 100% offline (no internet needed)
+   ✓ Smart header detection (keeps only one header)
+   ✓ Standardized output
+   ✓ Progress tracking
+   ✓ Error handling
+   ✓ Timestamped output folders (never lose work)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎓 EXAMPLE SCENARIOS:
+
+   Scenario 1: "I have 50 CSV files I need combined"
+   ────────────────────────────────────────────────
+   → Put all 50 CSVs in one folder
+   → Double-click CSV Merger.bat
+   → Paste the folder path
+   → Choose "MERGE"
+   → Get 1 master CSV with all data
+
+
+   Scenario 2: "I have folders of CSVs from different months"
+   ───────────────────────────────────────────────────────────
+   → Create a parent folder with all month subfolders
+   → Double-click CSV Merger.bat
+   → Paste the parent folder path
+   → Choose "MERGE"
+   → Get 1 master CSV from EVERYTHING
+
+
+   Scenario 3: "I just want to organize my CSVs"
+   ───────────────────────────────────────────────
+   → Put your CSVs in a folder
+   → Double-click CSV Merger.bat
+   → Paste folder path
+   → Choose "SEPARATE"
+   → CSVs copied to organized timestamped folder
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📦 OUTPUT LOCATION:
+
+   All merged files saved to: merge_vault/YYYYMMDD_HHMM/
+
+   Example:
+   merge_vault/
+   ├── 20241107_0930/
+   │   └── MERGED_ALL.csv
+   ├── 20241107_1430/
+   │   └── MERGED_ALL.csv
+   └── 20241107_2015/
+       └── MERGED_ALL.csv
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+❓ TROUBLESHOOTING:
+
+   "Python not found"
+   → Install Python from: https://www.python.org/downloads/
+   → Check "Add Python to PATH" during installation
+
+   "No CSV files found"
+   → Make sure your folder actually contains .csv files
+   → Check file extensions (must be .csv)
+
+   "Path not found"
+   → Right-click folder and select "Copy as path"
+   → Paste the path when prompted
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎉 THAT'S IT! Super simple CSV merging.
+
+   Questions? Check README.md for more details.
+
+   Made with ❤️ by ringmast4r
+
+╚══════════════════════════════════════════════════════════════════════════════╝
