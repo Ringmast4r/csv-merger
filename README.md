@@ -1,3 +1,25 @@
+<div align="center">
+
+<img width="100%" alt="CSV MERGER" src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:75273E&height=220&section=header&text=CSV%20MERGER&fontSize=60&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=Cross-platform%20%7C%20Python%20%7C%20CSV%20%7C%20Utility&descSize=16&descAlignY=58"/>
+
+`Cross-platform` [`Python`](https://www.python.org/) `CSV` `Utility` - Merge multiple CSV files into one mega CSV. Simple, fast, offline. Handles huge files with smart header detection and batch processing.
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&pause=1000&color=75273E&center=true&vCenter=true&multiline=true&repeat=true&width=950&height=90&lines=Merge+multiple+CSV+files+into+one+mega+CSV%3BCross-platform+%2F+Python+%2F+CSV+%2F+Utility)](https://git.io/typing-svg)
+
+<br>
+
+[![Project](https://img.shields.io/badge/Project-csv--merger-75273E?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ringmast4r/csv-merger)
+[![Format](https://img.shields.io/badge/Format-Python-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ringmast4r/csv-merger/tree/master)
+
+[![Stars](https://img.shields.io/github/stars/Ringmast4r/csv-merger?style=flat-square&color=75273E)](https://github.com/Ringmast4r/csv-merger/stargazers)
+[![Forks](https://img.shields.io/github/forks/Ringmast4r/csv-merger?style=flat-square&color=75273E)](https://github.com/Ringmast4r/csv-merger/network/members)
+[![Repo Size](https://img.shields.io/github/repo-size/Ringmast4r/csv-merger?style=flat-square&color=75273E)](https://github.com/Ringmast4r/csv-merger)
+[![Last Commit](https://img.shields.io/github/last-commit/Ringmast4r/csv-merger?style=flat-square&color=75273E)](https://github.com/Ringmast4r/csv-merger/commits/master)
+
+</div>
+
+---
+
 # 📊 CSV Merger
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -8,7 +30,8 @@
 
 Merge multiple CSV files into one mega CSV. Simple, fast, offline.
 
-## Why This?
+<a id="why-this"></a>
+## `> why_this`
 
 | Manual Merging | CSV Merger |
 |----------------|------------|
@@ -18,7 +41,8 @@ Merge multiple CSV files into one mega CSV. Simple, fast, offline.
 | ❌ Time-consuming | ✅ Batch processing |
 | ❌ Scattered outputs | ✅ Organized vault |
 
-## Features
+<a id="features"></a>
+## `> features`
 
 - **🎯 Drag & Drop** - Interactive interface (Windows)
 - **Batch Processing** - Merge 100+ files at once
@@ -29,7 +53,8 @@ Merge multiple CSV files into one mega CSV. Simple, fast, offline.
 - **No Dependencies** - Just Python 3.x standard library
 - **No Size Limits** - Handles huge files
 
-## Quick Start
+<a id="quick-start"></a>
+## `> quick_start`
 
 ### Windows (Interactive Mode!)
 ```bash
@@ -57,7 +82,8 @@ python3 csv_merger.py file1.csv file2.csv file3.csv -o merged.csv -v
 python3 csv_merger.py -d ./data -o merged.csv --recursive -v
 ```
 
-## Output
+<a id="output"></a>
+## `> output`
 
 All outputs saved to timestamped folders:
 
@@ -72,7 +98,8 @@ CSV-Merger/
         └── MERGED_ALL.csv
 ```
 
-## Example
+<a id="example"></a>
+## `> example`
 
 ```bash
 # Before: 50 CSV files scattered everywhere
@@ -82,7 +109,8 @@ python3 csv_merger.py -d ~/data/csvs -o mega.csv -v
 # Output: merge_vault/20241107_1430/MERGED_ALL.csv
 ```
 
-## How It Works
+<a id="how-it-works"></a>
+## `> how_it_works`
 
 1. Scans folder for `.csv` files
 2. Reads header from first CSV
@@ -91,7 +119,8 @@ python3 csv_merger.py -d ~/data/csvs -o mega.csv -v
 5. Appends all data rows to output
 6. Skips empty rows and handles errors gracefully
 
-## Use Cases
+<a id="use-cases"></a>
+## `> use_cases`
 
 ✅ Combine monthly/weekly CSV reports
 ✅ Merge data exports from multiple sources
@@ -101,7 +130,8 @@ python3 csv_merger.py -d ~/data/csvs -o mega.csv -v
 ✅ Merge sensor/IoT data logs
 ✅ Any CSV files!
 
-## Installation
+<a id="installation"></a>
+## `> installation`
 
 No installation needed! Just requires Python 3.x:
 
@@ -109,14 +139,16 @@ No installation needed! Just requires Python 3.x:
 **Linux:** `sudo apt install python3` (Ubuntu/Debian)
 **Mac:** `brew install python3`
 
-## Documentation
+<a id="documentation"></a>
+## `> documentation`
 
 - **`START_HERE.txt`** - Quick start guide with ASCII art
 - **`HOW_TO_USE.txt`** - Visual guide for Windows
 - **`QUICKSTART.md`** - Platform-specific instructions
 - **`README.md`** - This file
 
-## Options
+<a id="options"></a>
+## `> options`
 
 ```bash
 python3 csv_merger.py --help
@@ -128,15 +160,25 @@ Options:
   --recursive         Include CSVs in subfolders
 ```
 
-## Requirements
+<a id="requirements"></a>
+## `> requirements`
 
 - Python 3.6 or higher
 - No external dependencies (uses standard library only)
 
-## License
+<a id="license"></a>
+## `> license`
 
 MIT - See [LICENSE](LICENSE)
 
 ---
 
 Made with ❤️ by [ringmast4r](https://github.com/ringmast4r)
+
+---
+
+<div align="center">
+
+<img width="100%" alt="CSV MERGER footer" src="https://capsule-render.vercel.app/api?type=waving&color=0:75273E,100:000000&height=120&section=footer&text=RINGMAST4R%20%2F%2F%20UTILITY&fontSize=18&fontColor=ffffff&fontAlignY=65"/>
+
+</div>
