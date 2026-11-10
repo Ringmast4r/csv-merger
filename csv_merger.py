@@ -96,6 +96,11 @@ class CSVMerger:
                         self.failed_files.append(input_file)
                         continue
 
+            if self.total_files == 0:
+                print("[!] Error: no input files could be merged "
+                      "(all missing, empty, or unreadable)")
+                return False
+
             if verbose:
                 print()
                 print("=" * 70)
